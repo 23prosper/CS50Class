@@ -63,13 +63,13 @@ for( int i=0; child.fname[i]!='\0'; i++)
 	printf(" BMI : %.2f\n",bmi);
 	// condition to display the range of BMI using pointers.
 	if(bmi<18.6){
-		printf(" Your BMI is condidered as %s",*Range);
+		printf(" Your BMI is considered as %s",*Range);
 	}else if(bmi<25){
-		printf(" Your BMI is condidered as %s",*(Range+1));
+		printf(" Your BMI is considered as %s",*(Range+1));
 	}else if(bmi<30){
-		printf(" Your BMI is condidered as %s",*(Range+2));
+		printf(" Your BMI is considered as %s",*(Range+2));
 	}else{
-		printf(" Your BMI is condidered as %s",*(Range+3));
+		printf(" Your BMI is considered as %s",*(Range+3));
 	}
 	return 0;
 }
