@@ -1,11 +1,12 @@
 #include <stdio.h>
-// #include "cs50.h"
 
-int main(void)
-{
-    char name[10];
-    printf("Whatis your name?\n");
-    scanf("%s",&name);
+main{
 
-    printf("hello %s",name);
+    int rows,space,i,j;
+    printf("Enter the number of rows : ");
+    scanf("%d",&rows);
+    for ( i=0 ;i < rows ; i++)
+    {
+        printf("\n");
+    }
 }
